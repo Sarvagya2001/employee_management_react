@@ -15,7 +15,7 @@ jobs:
           with:
             node-version: 18
         - run: |
-            cd fullstack_front
+            cd employee_front
             npm ci
         - name: Build & push Docker image
           uses: mr-smithers-excellent/docker-build-push@v6
